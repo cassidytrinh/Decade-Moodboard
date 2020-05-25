@@ -79,7 +79,7 @@ button{
 }
 .name-60s{
   font-family:'Galindo';
-  font-size:60px;
+  font-size:40px;
   text-align: center;
   color:white;
   text-shadow: 2px 2px 4px #9BDF31;
@@ -87,21 +87,21 @@ button{
 }
 .name-70s{
   font-family:'Monoton';
-  font-size:60px;
+  font-size:35px;
   text-align: center;
   color:#D34B06;
   text-shadow: 2px 2px 4px #FAE808;
 }
 .name-80s{
   font-family:'Faster One';
-  font-size:60px;
+  font-size:30px;
   text-align: center;
   color:#FF33F6;
   text-shadow: 2px 2px 4px #0DF8FC;
 }
 .name-90s{
   font-family:'Press Start 2P';
-  font-size:50px;
+  font-size:20px;
   text-align: center;
   color:black;
   margin-top:10px;
