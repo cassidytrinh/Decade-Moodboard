@@ -1,10 +1,16 @@
 var submit=$('.submit');
+var subtext=$('.sub');
 var clear=$('.clear');
+var cltext=$('.cl');
 var board=$('.board');
 var nameO=$('.name-output');
 var old = "";
 submit.on('click', showBoard);
 clear.on('click', clearBoard);
+subtext.on('mouseenter', highlight);
+subtext.on('mouseleave', dehighlight);
+cltext.on('mouseenter', highlight);
+cltext.on('mouseleave', dehighlight);
 
 function showBoard(event){
   event.preventDefault();
@@ -22,4 +28,11 @@ function clearBoard(){
   nameO.text("");
   var decade=$('.decade-input option:selected').val();
   board.removeClass('board-'+`${decade}`);
+}
+function highlight(){
+  $(this).addClass('highlight');
+}
+function dehighlight(){
+  $(this).removeClass('highlight');
+
 }
